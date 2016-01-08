@@ -1,2 +1,2 @@
 # snow-white-app
-A info terminal app made by 7 dwarfs.
+Runs on Android, IOS, a browser and beyond the mountains. Hand crafted by seven dwarfs.
