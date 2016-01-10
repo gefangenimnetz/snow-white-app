@@ -2,7 +2,7 @@ var date = {
     node: document.getElementById('widget_datetime'),
 
     init: function(){
-        moment.locale(config.date.locale);
+        moment.locale(CONFIG.date.locale);
         
         this.dateNode = document.createElement("span");
         this.dateNode.classList.add('datetime__date');

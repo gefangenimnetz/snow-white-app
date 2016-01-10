@@ -1,6 +1,6 @@
 var vvs = {
     node: document.getElementById('widget_vvs'),
-    apiUrl: 'https://efa-api.asw.io/api/v1/station/' + config.vvs.stationId + '/departures/?format=json',
+    apiUrl: 'https://efa-api.asw.io/api/v1/station/' + CONFIG.vvs.stationId + '/departures/?format=json',
 
     init: function(){
         this.fetchDeparturesJSON(this.apiUrl);
@@ -11,7 +11,7 @@ var vvs = {
             return response.json();
         }).then(function(j) {
             var filteredTrains = j.filter(function(train){
-                return (train.number === config.vvs.trainNumber) && (train.direction === config.vvs.direction);
+                return (train.number === CONFIG.vvs.trainNumber) && (train.direction === CONFIG.vvs.direction);
             });
             this.update(filteredTrains);
         }.bind(this));
