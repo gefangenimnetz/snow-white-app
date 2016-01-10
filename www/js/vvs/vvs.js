@@ -18,6 +18,6 @@ var vvs = {
     },
 
     update: function(trains){
-        this.node.innerHTML = 'U7 um: ' + trains[0].departureTime.hour + ':' + trains[0].departureTime.minute;
+        this.node.innerHTML = trains[0].number + ' um: ' + trains[0].departureTime.hour + ':' + trains[0].departureTime.minute;
     }
 }
