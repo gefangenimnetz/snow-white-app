@@ -28,6 +28,7 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
+        <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com https://efa-api.asw.io 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
@@ -53,6 +54,7 @@
         <script type="text/javascript" src="js/moment-with-locales.min.js"></script>
         <script type="text/javascript" src="js/fetch.js"></script>
         <script type="text/javascript" src="js/date/date.js"></script>
+        <script type="text/javascript" src="js/vvs/vvs.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>

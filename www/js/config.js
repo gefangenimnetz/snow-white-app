@@ -5,7 +5,9 @@ var config = {
         city: 'Stuttgart,de'
     },
     vvs: {
-        stationId: '5006133'
+        stationId: '5006133',
+        trainNumber: 'U7',
+        direction: 'Mönchfeld'
     },
     date: {
         locale: 'de'

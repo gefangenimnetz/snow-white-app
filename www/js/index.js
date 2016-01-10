@@ -39,6 +39,7 @@ var app = {
         date.init();
         //initDatetime();
         //initVVS();
+        vvs.init();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

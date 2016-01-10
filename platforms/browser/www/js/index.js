@@ -37,8 +37,7 @@ var app = {
 
         // Init widgets
         date.init();
-        //initDatetime();
-        //initVVS();
+        vvs.init();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -58,22 +57,3 @@ var app = {
 
 app.initialize();
 // setInterval(app.tick, 1000);
-
-// var dateTimeWidgetNode = document.getElementById('widget_datetime');
-// function datetimeUpdate() {
-//     dateTimeWidgetNode.innerHTML = moment().format("dddd, D.M.YYYY, H:mm:ss");
-// }
-// function initDatetime(){
-//     moment.locale(config.date.locale);
-// }
-
-var vvsNode = document.getElementById('widget_vvs');
-function initVVS(){
-    var vvsJsonURL = 'https://efa-api.asw.io/api/v1/station/5006133/departures/?format=json';
-    fetch(vvsJsonURL).then(function(response) { 
-        return response.json();
-    }).then(function(j) {
-        vvsNode.innerHTML = JSON.stringify(j);
-        console.log(j); 
-    });
-}
