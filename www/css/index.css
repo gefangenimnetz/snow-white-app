@@ -67,9 +67,10 @@ body {
     to { opacity: 1.0; }
 }
 
+
 /* WIDGETS */
 .widget {
-    
+    margin-bottom: 24px;
 }
 
 .datetime {}
@@ -77,6 +78,15 @@ body {
     display: block;
 }
 .datetime__time {
+    font-size: 72px;
+    line-height: 1;
+}
+
+.weather {}
+.weather__icon {
+    margin-right: 24px;
+}
+.weather__today {
     font-size: 72px;
     line-height: 1;
 }

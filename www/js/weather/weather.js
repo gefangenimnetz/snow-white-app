@@ -19,6 +19,13 @@ var weather = {
     },
 
     update: function(weather){
-        this.node.innerHTML = '<i class="wi wi-thermometer"></i> ' + weather.main.temp + ' C° <i class="wi wi-owm-' + weather.weather[0].id + '"></i> ' +  weather.weather[0].main;
+        this.node.innerHTML = ''+ 
+            '<span class="weather__today">' +
+                '<span class="weather__icon"><i class="wi wi-owm-' + weather.weather[0].id + '"></i></span>' +
+                '<span class="weather__temp">' + Math.round(weather.main.temp) + '°</span>' +
+            '</span>' +
+            '<ui class="weather__forecast">' +
+            '</ui>' +
+        '';
     }
 }
