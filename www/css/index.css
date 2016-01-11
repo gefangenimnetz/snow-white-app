@@ -67,10 +67,16 @@ body {
     to { opacity: 1.0; }
 }
 
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 
 /* WIDGETS */
 .widget {
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 
 .datetime {}
@@ -83,10 +89,17 @@ body {
 }
 
 .weather {}
-.weather__icon {
-    margin-right: 24px;
+.weather__today {
+    display: block;
+    margin-bottom: 24px;
 }
+.weather__icon { margin-right: 24px; }
 .weather__today {
     font-size: 72px;
     line-height: 1;
+}
+.weather__day {
+    display: inline-block;
+    margin-right: 24px;
+    min-width: 24px;
 }
