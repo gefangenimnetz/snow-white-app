@@ -4,6 +4,10 @@ var weather = {
 
     init: function(){
         this.fetchWeatherJSON(this.apiUrl);
+
+        this.interval = setInterval(function() {
+            this.fetchWeatherJSON();
+        }.bind(this), 1000 * 60 * 60); //1 hour
     },
 
     fetchWeatherJSON: function(url){
