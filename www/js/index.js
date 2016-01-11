@@ -38,6 +38,7 @@ var app = {
         // Init widgets
         date.init();
         vvs.init();
+        weather.init();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
