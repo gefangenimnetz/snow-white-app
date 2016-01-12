@@ -18,6 +18,9 @@
         },
         "nl.x-services.plugins.calendar": {
             "PACKAGE_NAME": "com.sevendwarfs.snowwhite"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.sevendwarfs.snowwhite"
         }
     },
     "dependent_plugins": {}
