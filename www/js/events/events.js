@@ -6,7 +6,7 @@ var events = {
 
     onEventsReceivedSuccess: function(data){
         console.log(data);
-        alert("The next event is: ", data[0].title);
+        //alert("The next event is: ", data[0].title);
     },
 
     onError: function(msg){
