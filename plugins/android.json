@@ -15,6 +15,9 @@
         },
         "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "com.sevendwarfs.snowwhite"
+        },
+        "nl.x-services.plugins.calendar": {
+            "PACKAGE_NAME": "com.sevendwarfs.snowwhite"
         }
     },
     "dependent_plugins": {}
