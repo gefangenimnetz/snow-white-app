@@ -12,6 +12,9 @@
         },
         "cordova-plugin-livereload": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.sevendwarfs.snowwhite"
         }
     },
     "dependent_plugins": {}
