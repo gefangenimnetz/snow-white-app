@@ -5,6 +5,10 @@ Runs on Android, IOS, a browser and beyond the mountains. Hand crafted by seven 
 JavaScript motion detection using camera: https://benjaminhorn.io/code/motion-detection-with-javascript-and-a-web-camera/
 Cordova camera plugin: https://github.com/apache/cordova-plugin-camera
 
+## Interact with the device
+Speech recorgnition local: https://github.com/syl22-00/pocketsphinx.js
+Speech recorgnition via GOOGLE: https://github.com/macdonst/SpeechRecognitionPlugin
+
 # WIDGETS
 
 ### VVS
