@@ -1,0 +1,5 @@
+var camera = {
+    init: function(){
+        
+    }
+};

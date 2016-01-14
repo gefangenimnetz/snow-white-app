@@ -41,6 +41,7 @@ var app = {
         weather.init();
         events.init();
 
+        camera.init();
     },
     // tick: function(){
     //     datetimeUpdate();
