@@ -13,7 +13,8 @@ Speech recognition via GOOGLE: https://github.com/macdonst/SpeechRecognitionPlug
 # WIDGETS
 
 ### VVS
-Departures for Bockelstraße: https://efa-api.asw.io/api/v1/station/5006133/departures/?format=json
+Departures for Bockelstraße: https://efa-api.asw.io/api/v1/station/5006133/departures/?format=json   
+Simple EFA: http://patrickbrosi.de/de/projects/simpleefa/
 
 ### OpenWeatherMap
 Stuttgart: http://api.openweathermap.org/data/2.5/weather?q=Stuttgart,de&units=metric&appid=8bbcf7b3dd90b823020c3ff584ae1a08
