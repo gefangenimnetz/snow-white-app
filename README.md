@@ -6,8 +6,8 @@ JavaScript motion detection using camera: https://benjaminhorn.io/code/motion-de
 Cordova camera plugin: https://github.com/apache/cordova-plugin-camera
 
 ## Interact with the device
-Speech recognition local: https://github.com/syl22-00/pocketsphinx.js 
-Speech recognition local: https://github.com/zzmp/juliusjs 
+Speech recognition local: https://github.com/syl22-00/pocketsphinx.js  
+Speech recognition local: https://github.com/zzmp/juliusjs  
 Speech recognition via GOOGLE: https://github.com/macdonst/SpeechRecognitionPlugin
 
 # WIDGETS
