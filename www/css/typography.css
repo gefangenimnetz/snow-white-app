@@ -1,0 +1,22 @@
+/*
+ * Font sizes and line-heights. Perfect fifth (2:3)
+ *
+ * PX    |  REM      |  LH
+ * ------|-----------|--------------
+ * 81px  |  5.06rem  |  96px
+ * 54px  |  3.38rem  |  72px
+ * 36px  |  2.25rem  |  48px
+ * 24px  |  1.5rem   |  24px
+ * 16px  |  1rem     |  24px
+ * 11px  |  0.67rem  |  24px
+*/
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.huge {
+    font-size: 81px;
+    line-height: 96px;
+}

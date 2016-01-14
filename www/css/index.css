@@ -16,6 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+@import url(typography.css);
+
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
@@ -27,44 +30,9 @@ body {
     background-color:#000000;
     color: #ffffff;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 24px;
     height: 100%;
-    margin: 24px;
+    margin: 48px;
     padding: 0;
-}
-
-
-
-.event {
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    color:#FFFFFF;
-    font-size:12px;
-    margin:0px 30px;
-    padding:2px 0px;
-}
-
-.event.listening {
-    background-color:#333333;
-    display:block;
-}
-
-.event.received {
-    background-color:#4B946A;
-    display:none;
-}
-
-@keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
-}
- 
-@-webkit-keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
 }
 
 ul,li {
@@ -73,19 +41,25 @@ ul,li {
     list-style-type: none;
 }
 
+.app { position: relative; }
 
 /* WIDGETS */
-.widget {
-    margin-bottom: 48px;
+.widgets--left {
+    float: left;
+    width: 50%;
 }
+.widgets--right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.widget { margin-bottom: 48px; }
+.widget--right { float: right; }
 
 .datetime {}
 .datetime__date {
     display: block;
-}
-.datetime__time {
-    font-size: 72px;
-    line-height: 1;
 }
 
 .weather {}
@@ -94,12 +68,19 @@ ul,li {
     margin-bottom: 24px;
 }
 .weather__icon { margin-right: 24px; }
-.weather__today {
-    font-size: 72px;
-    line-height: 1;
-}
 .weather__day {
     display: inline-block;
     margin-right: 24px;
     min-width: 24px;
+}
+.weather__forecast {
+    display: inline-block;
+    text-align: left;
+}
+.weather__forecast li { display: block; }
+.weather__forecast .weather__temp {
+    float: right;
+}
+.weather__forecast .weather__icon {
+    float: right;
 }
