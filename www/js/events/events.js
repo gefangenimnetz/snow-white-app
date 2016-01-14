@@ -1,7 +1,9 @@
 var events = {
     init: function(){
         //this.fetchICS();
-        this.getLocalDeviceEvents();
+        if (device.platform !== 'browser'){
+            this.getLocalDeviceEvents();
+        }
     },
 
     onEventsReceivedSuccess: function(data){
