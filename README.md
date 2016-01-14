@@ -2,7 +2,7 @@
 Runs on Android, IOS, a browser and beyond the mountains. Hand crafted by seven dwarfs.
 
 ## Activate device
-JavaScript motion detection using camera: https://benjaminhorn.io/code/motion-detection-with-javascript-and-a-web-camera/
+JavaScript motion detection using camera: https://benjaminhorn.io/code/motion-detection-with-javascript-and-a-web-camera/  
 Cordova camera plugin: https://github.com/apache/cordova-plugin-camera
 
 ## Interact with the device
