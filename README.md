@@ -3,7 +3,8 @@ Runs on Android, IOS, a browser and beyond the mountains. Hand crafted by seven 
 
 ## Activate device
 JavaScript motion detection using camera: https://benjaminhorn.io/code/motion-detection-with-javascript-and-a-web-camera/  
-Cordova camera plugin: https://github.com/apache/cordova-plugin-camera
+Cordova camera plugin: https://github.com/apache/cordova-plugin-camera  
+Get live preview of camera: https://github.com/Moonware/cordova-cameraserver/ (needed for iOS – getUserMedia for Android and browser)
 
 ## Interact with the device
 Speech recognition local: https://github.com/syl22-00/pocketsphinx.js  
