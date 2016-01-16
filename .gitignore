@@ -3,3 +3,5 @@ platforms/
 
 # OSX
 .DS_Store
+snow-white.crt
+snow-white.key
