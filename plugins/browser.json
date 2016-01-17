@@ -19,10 +19,13 @@
         "nl.x-services.plugins.calendar": {
             "PACKAGE_NAME": "com.sevendwarfs.snowwhite"
         },
-        "cordova-plugin-statusbar": {
+        "cordova-plugin-device": {
             "PACKAGE_NAME": "com.sevendwarfs.snowwhite"
         },
-        "cordova-plugin-device": {
+        "com.moonware.cameraserver": {
+            "PACKAGE_NAME": "com.sevendwarfs.snowwhite"
+        },
+        "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.sevendwarfs.snowwhite"
         }
     },
