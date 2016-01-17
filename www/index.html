@@ -29,7 +29,7 @@
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
         <meta charset="utf-8">
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com https://efa-api.asw.io http://api.openweathermap.org 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com https://efa-api.asw.io http://api.openweathermap.org 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src *">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -49,6 +49,8 @@
             <div class="widgets--right">
                 <div class="widget weather" id="widget_weather"></div>
             </div>
+
+            <img src='http://localhost:8080/live.jpg' style="border: 1px solid green;" id="livecam">
         </div>
 
         <script type="text/javascript" src="cordova.js"></script>
